@@ -73,7 +73,7 @@ Other interesting wrapper functions are:
 
 Other library functions/properties:
 
-1. validateObject(template, object): validates the specified object against the specified template.
-2. getMessages: returns validation errors after a call to validateObject.
-3. getInvalidDescription: returns a description of why the object did not match the template.
-4. getTemplateDescription: returns a textual description of the specified template.
+1. `validateObject(template, object)`: validates the specified object against the specified template.
+2. `getMessages()`: returns validation errors after a call to validateObject.
+3. `getInvalidDescription()`: returns a description of why the object did not match the template.
+4. `getTemplateDescription()`: returns a textual description of the specified template.
