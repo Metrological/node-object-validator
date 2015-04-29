@@ -3,9 +3,10 @@ Object Validator
 
 Allows validation of an object against a template.
 
-Example:
 
-`function validate(notification, callback){
+Example:
+`
+function validate(notification, callback){
     var ov = require('objectValidator');
     var _ = require('lodash');
 
@@ -47,7 +48,9 @@ Example:
     }
 
     callback();
-};`
+};
+
+`
 
 In a template, you can use functions or wrappers. Wrappers, such as obj({..}) can be used to define a sub-object. The
 validateObject function should be used to validate the object against the template. objectValidator provides uses the
