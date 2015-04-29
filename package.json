@@ -4,7 +4,8 @@
   "description": "Allows object validation against a template",
   "version": "0.1",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/Metrological/node-object-validator"
   },
   "main": "./lib/object-validator",
   "keywords": [
