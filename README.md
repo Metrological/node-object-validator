@@ -8,7 +8,7 @@ Example:
 
 ```javascript
 function validate(notification, callback){
-    var ov = require('objectValidator');
+    var ov = require('object-template-validator');
     var _ = require('lodash');
 
     var obj = ov.obj, arr = ov.arr, opt = ov.opt, choice = ov.choice, and = ov.and, nullable = ov.nullable;
