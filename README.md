@@ -59,6 +59,7 @@ fetched after validation by the getMessages method. The getInvalidDescription pr
 was wrong.
 
 Other interesting wrapper functions are:
+
 1. `opt(f)`: key is optional, or f(value) is true
 2. `nullable(f)`: value may be null, or f(value) is true
 3. `obj({...})`: value must be an object according to the specified template
@@ -71,6 +72,7 @@ Other interesting wrapper functions are:
 10. `isISODate(v)`: validates an ISO Date-formatted string (2015-04-28T10:00.000Z)
 
 Other library functions/properties:
+
 1. validateObject(template, object): validates the specified object against the specified template.
 2. getMessages: returns validation errors after a call to validateObject.
 3. getInvalidDescription: returns a description of why the object did not match the template.
